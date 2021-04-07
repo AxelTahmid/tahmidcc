@@ -31,10 +31,10 @@ class About extends Component {
                 <div className="skills">
                   <div className="skill-name">
                     <p>Git</p>
-                    <p>75%</p>
+                    <p>80%</p>
                   </div>
                   <ProgressBar
-                    completed={75}
+                    completed={80}
                     bgColor="#545aa7"
                     height="10px"
                     borderRadius="10px"
@@ -82,18 +82,6 @@ class About extends Component {
                   </div>
                   <ProgressBar
                     completed={85}
-                    bgColor="#545aa7"
-                    height="10px"
-                    borderRadius="10px"
-                    isLabelVisible={false}
-                    transitionDuration="1s"
-                  />
-                  <div className="skill-name">
-                    <p>Digital Marketing</p>
-                    <p>90%</p>
-                  </div>
-                  <ProgressBar
-                    completed={90}
                     bgColor="#545aa7"
                     height="10px"
                     borderRadius="10px"
