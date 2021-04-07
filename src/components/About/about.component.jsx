@@ -40,20 +40,20 @@ class About extends Component {
                     borderRadius="10px"
                     isLabelVisible={false}
                     labelColor="#e80909"
-                    transitionDuration="2"
+                    transitionDuration="2s"
                   />
                   <div className="skill-name">
                     <p>React</p>
-                    <p>85%</p>
+                    <p>80%</p>
                   </div>
                   <ProgressBar
-                    completed={85}
+                    completed={80}
                     bgColor="#545aa7"
                     height="10px"
                     borderRadius="10px"
                     isLabelVisible={false}
                     labelColor="#e80909"
-                    transitionDuration="2"
+                    transitionDuration="2s"
                   />
                   {/* <div className="progress">
                     <div
@@ -65,7 +65,7 @@ class About extends Component {
                     />
                   </div> */}
                   <div className="skill-name">
-                    <p>Codeigniter 4</p>
+                    <p>Codeigniter</p>
                     <p>80%</p>
                   </div>
                   <ProgressBar
@@ -74,11 +74,11 @@ class About extends Component {
                     height="10px"
                     borderRadius="10px"
                     isLabelVisible={false}
-                    transitionDuration="1s"
+                    transitionDuration="2s"
                   />
                   <div className="skill-name">
                     <p>Arduino</p>
-                    <p>85%</p>
+                    <p>90%</p>
                   </div>
                   <ProgressBar
                     completed={85}
@@ -86,11 +86,11 @@ class About extends Component {
                     height="10px"
                     borderRadius="10px"
                     isLabelVisible={false}
-                    transitionDuration="1s"
+                    transitionDuration="2s"
                   />
                   <div className="skill-name">
                     <p>Photoshop</p>
-                    <p>75%</p>
+                    <p>70%</p>
                   </div>
                   <ProgressBar
                     completed={75}
@@ -98,7 +98,7 @@ class About extends Component {
                     height="10px"
                     borderRadius="10px"
                     isLabelVisible={false}
-                    transitionDuration="1s"
+                    transitionDuration="2s"
                   />
                 </div>
                 <a className="btn" href="#home">
