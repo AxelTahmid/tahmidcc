@@ -1,0 +1,46 @@
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 45px 0;
+  padding: 90px 0;
+  background: #545aa7;
+  .container {
+    max-width: 750px;
+    text-align: center;
+  }
+  .section-header {
+    margin-bottom: 20px;
+    p {
+      color: #414141;
+      background: transparent;
+      &::after {
+        display: none;
+      }
+    }
+    h2 {
+      color: #ffffff;
+      span {
+        color: #414141;
+        font-size: 50px;
+      }
+    }
+  }
+  .banner-text {
+    p {
+      font-size: 18px;
+      color: #ffffff;
+    }
+    .btn {
+      margin-top: 15px;
+      color: #545aa7;
+      background: #ffffff;
+      box-shadow: inset 0 0 0 50px #ffffff;
+      &:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+      }
+    }
+  }
+}
