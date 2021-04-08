@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import "./portfolio.styles.scss";
-import portA from "../../assets/img/portfolio-1.jpg";
-import portB from "../../assets/img/portfolio-2.jpg";
-import portC from "../../assets/img/portfolio-3.jpg";
-import portD from "../../assets/img/portfolio-4.jpg";
-import portE from "../../assets/img/portfolio-5.jpg";
-import portF from "../../assets/img/portfolio-6.jpg";
+import portA from "../../assets/img/portfolio-2.jpg";
+import portB from "../../assets/img/portfolio-3.jpg";
 
 class Portfolio extends Component {
   render() {
@@ -38,14 +34,18 @@ class Portfolio extends Component {
             >
               <div className="portfolio-wrap">
                 <div className="portfolio-img">
-                  <img src={portA} alt="" />
+                  <img
+                    src="http://esscre.com:3000/static/media/Logo-cropped.8db55ea0.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="portfolio-text">
-                  <h3>eCommerce Website</h3>
+                  <h3>Esscre (ecommerce)</h3>
                   <a
                     className="btn"
-                    href="img/portfolio-1.jpg"
-                    data-lightbox="portfolio"
+                    href="http://esscre.com:3000"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     +
                   </a>
@@ -58,14 +58,15 @@ class Portfolio extends Component {
             >
               <div className="portfolio-wrap">
                 <div className="portfolio-img">
-                  <img src={portB} alt="" />
+                  <img src={portA} alt="" />
                 </div>
                 <div className="portfolio-text">
-                  <h3>Product Landing Page</h3>
+                  <h3>UralXpress (Delivery)</h3>
                   <a
                     className="btn"
-                    href="img/portfolio-2.jpg"
-                    data-lightbox="portfolio"
+                    href="http://ebexsoft.com/uralxpressapps/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     +
                   </a>
@@ -78,75 +79,11 @@ class Portfolio extends Component {
             >
               <div className="portfolio-wrap">
                 <div className="portfolio-img">
-                  <img src={portC} alt="" />
+                  <img src={portB} alt="" />
                 </div>
                 <div className="portfolio-text">
-                  <h3>Social Media Marketing</h3>
-                  <a
-                    className="btn"
-                    href="img/portfolio-3.jpg"
-                    data-lightbox="portfolio"
-                  >
-                    +
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
-              <div className="portfolio-wrap">
-                <div className="portfolio-img">
-                  <img src={portD} alt="" />
-                </div>
-                <div className="portfolio-text">
-                  <h3>Corporate Websites</h3>
-                  <a
-                    className="btn"
-                    href="img/portfolio-4.jpg"
-                    data-lightbox="portfolio"
-                  >
-                    +
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <div className="portfolio-wrap">
-                <div className="portfolio-img">
-                  <img src={portE} alt="" />
-                </div>
-                <div className="portfolio-text">
-                  <h3>Delivery System</h3>
-                  <a
-                    className="btn"
-                    href="img/portfolio-5.jpg"
-                    data-lightbox="portfolio"
-                  >
-                    +
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
-              data-wow-delay="1s"
-            >
-              <div className="portfolio-wrap">
-                <div className="portfolio-img">
-                  <img src={portF} alt="" />
-                </div>
-                <div className="portfolio-text">
-                  <h3>SEO Optimization</h3>
-                  <a
-                    className="btn"
-                    href="img/portfolio-6.jpg"
-                    data-lightbox="portfolio"
-                  >
+                  <h3>Social Media Sites</h3>
+                  <a className="btn" href="img/portfolio-3.jpg">
                     +
                   </a>
                 </div>

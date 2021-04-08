@@ -1,4 +1,4 @@
-import React, { useEffect, Component } from "react";
+import React, { Component } from "react";
 import "./navbar.styles.scss";
 
 class Navbar extends Component {
