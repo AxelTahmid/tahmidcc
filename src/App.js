@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio/portfolio.component";
 import Contact from "./components/Contact/contact.component";
 import Blog from "./components/Blog/blog.component";
 import Footer from "./components/Footer/footer.component";
+import Lantern from "./assets/AnimatedLantern/lantern.component";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Portfolio />
       <Contact />
       <Blog />
+      <Lantern />
+
       <Footer />
     </div>
   );

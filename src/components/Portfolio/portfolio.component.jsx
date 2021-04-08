@@ -83,7 +83,7 @@ class Portfolio extends Component {
                 </div>
                 <div className="portfolio-text">
                   <h3>Social Media Sites</h3>
-                  <a className="btn" href="img/portfolio-3.jpg">
+                  <a className="btn" href="#home">
                     +
                   </a>
                 </div>

@@ -53,17 +53,8 @@ class About extends Component {
                     borderRadius="10px"
                     isLabelVisible={false}
                     labelColor="#e80909"
-                    transitionDuration="2s"
+                    transitionDuration="3s"
                   />
-                  {/* <div className="progress">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={85}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div> */}
                   <div className="skill-name">
                     <p>Codeigniter</p>
                     <p>80%</p>
