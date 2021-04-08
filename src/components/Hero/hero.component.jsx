@@ -44,10 +44,10 @@ class Hero extends Component {
               </div>
             </div>
             <div className="col-sm-12 col-md-6 d-none d-md-block">
-              <Lanterngalaxy />
-              {/* <div className="hero-image">
-                <img src={heroimg} alt="" />
-              </div> */}
+              <div className="hero-image">
+                {/* <img src={heroimg} alt="" /> */}
+                <Lanterngalaxy />
+              </div>
             </div>
           </div>
         </div>

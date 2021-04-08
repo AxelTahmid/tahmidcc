@@ -24,8 +24,6 @@ function App() {
       <Portfolio />
       <Contact />
       <Blog />
-      <Lantern />
-
       <Footer />
     </div>
   );

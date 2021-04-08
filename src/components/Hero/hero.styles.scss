@@ -4,8 +4,8 @@
   margin-bottom: 45px;
   padding: 120px 0 0 0;
   overflow: hidden;
-  background: linear-gradient(rgba(84, 90, 167, 0.95), rgba(84, 90, 167, 0.95)),
-    url(../../assets/img/hero-bg.jpg);
+  background: linear-gradient(rgba(84, 90, 167, 0.95), rgba(84, 90, 167, 0.95));
+  // url(../../assets/img/hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,8 +17,8 @@
     text-align: right;
     padding-right: 75px;
     img {
-      max-width: 110%;
-      max-height: 110%;
+      max-width: 100%;
+      max-height: 100%;
     }
   }
   .hero-content {
@@ -51,14 +51,14 @@
       font-size: 35px;
       font-weight: 600;
     }
-    .typed-text {
-      display: none;
-    }
-    .typed-cursor {
-      font-size: 15px;
-      font-weight: 300;
-      color: #ffffff;
-    }
+    // .typed-text {
+    //   display: none;
+    // }
+    // .typed-cursor {
+    //   font-size: 15px;
+    //   font-weight: 300;
+    //   color: #ffffff;
+    // }
   }
   .hero-btn {
     .btn {

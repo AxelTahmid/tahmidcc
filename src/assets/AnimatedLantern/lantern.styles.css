@@ -1,31 +1,37 @@
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
-}
+} */
 
 * {
   /*outline: 1px dotted yellow;*/
   box-sizing: border-box;
 }
 
+.lantern-container {
+}
+
 .stage {
   /* --c-bg: hsl(262, 39%, 20%); */
   /* --c-bg: #545aa7; */
 
+  /* height and width should be 100 for banner */
   align-items: center;
   background-color: var(--c-bg);
   display: flex;
-  height: 100vh;
+  height: 55vh;
   justify-content: center;
   overflow-y: hidden;
-  width: 100vw;
+  width: 41vw;
 }
 
 .scene {
-  height: 500px;
+  /* height: 500px;
+  width: 400px; */
+  height: 60vh;
+  width: 25vw;
   position: relative;
-  width: 400px;
 }
 .scene::before {
   --c-bg: hsl(262, 39%, 22%);
