@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, Component } from "react";
 import "./navbar.styles.scss";
 
 class Navbar extends Component {
@@ -37,9 +37,6 @@ class Navbar extends Component {
               <a href="#portfolio" className="nav-item nav-link">
                 Portfolio
               </a>
-              {/* <a href="#price" class="nav-item nav-link">Price</a>
-                  <a href="#review" class="nav-item nav-link">Review</a>
-                  <a href="#team" class="nav-item nav-link">Team</a> */}
               <a href="#contact" className="nav-item nav-link">
                 Contact
               </a>

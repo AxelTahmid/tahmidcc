@@ -27,16 +27,6 @@
     return false;
   });
 
-  // Skills
-  // $(".skills").waypoint(
-  //   function () {
-  //     $(".progress-bar").each(function () {
-  //       $(this).css("width", $(this).attr("aria-valuenow") + "%");
-  //     });
-  //   },
-  //   { offset: "80%" }
-  // );
-
   // Sticky Navbar
   $(window).scroll(function () {
     if ($(this).scrollTop() > 0) {
