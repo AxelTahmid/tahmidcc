@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.styles.scss";
+import { Link } from "react-scroll";
 
 class Navbar extends Component {
   render() {
@@ -22,27 +23,76 @@ class Navbar extends Component {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto">
-              <a href="#home" className="nav-item nav-link active">
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Home
-              </a>
-              <a href="#about" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 About
-              </a>
-              <a href="#experience" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Experience
-              </a>
-              <a href="#service" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="service"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Service
-              </a>
-              <a href="#portfolio" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Portfolio
-              </a>
-              <a href="#contact" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Contact
-              </a>
-              <a href="#blog" className="nav-item nav-link">
+              </Link>
+              <Link
+                className="nav-item nav-link"
+                activeClass="active"
+                to="blog"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 Blog
-              </a>
+              </Link>
             </div>
           </div>
         </div>

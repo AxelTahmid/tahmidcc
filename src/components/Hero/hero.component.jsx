@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./hero.styles.scss";
 import Typical from "react-typical";
-import heroimg from "../../assets/img/Hero.png";
+// import heroimg from "../../assets/img/Hero.png";
 import Lanterngalaxy from "../../assets/AnimatedLantern/lantern.component";
 
 class Hero extends Component {

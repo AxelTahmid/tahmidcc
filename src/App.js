@@ -10,7 +10,7 @@ import Portfolio from "./components/Portfolio/portfolio.component";
 import Contact from "./components/Contact/contact.component";
 import Blog from "./components/Blog/blog.component";
 import Footer from "./components/Footer/footer.component";
-import Lantern from "./assets/AnimatedLantern/lantern.component";
+import ButtonTop from "./components/buttonTop.components.jsx";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       <Contact />
       <Blog />
       <Footer />
+      <ButtonTop />
     </div>
   );
 }
