@@ -23,7 +23,7 @@ class Portfolio extends Component {
                 </li>
                 <li data-filter=".filter-1">Web Development</li>
                 <li data-filter=".filter-2">Mobile Apps</li>
-                <li data-filter=".filter-3">Digital Marketing</li>
+                <li data-filter=".filter-3">Social Sites</li>
               </ul>
             </div>
           </div>
@@ -40,7 +40,7 @@ class Portfolio extends Component {
                   />
                 </div>
                 <div className="portfolio-text">
-                  <h3>Esscre (ecommerce)</h3>
+                  <h3>Esscre (eCommerce)</h3>
                   <a
                     className="btn"
                     href="http://esscre.com:3000"
