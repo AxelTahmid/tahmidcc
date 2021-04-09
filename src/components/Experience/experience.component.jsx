@@ -55,9 +55,9 @@ class Experience extends Component {
               <div className="timeline-text">
                 <div className="timeline-date">2018 - 2020</div>
                 <h2>Digital Marketing Manager</h2>
-                <h4>Persian International Limited, Gulshan, Dhaka</h4>
+                <h4>Oasis Tours n Travels, Link Road, Dhaka</h4>
                 <p>
-                  The one and only recruiting agency you will ever need. We
+                  The one and only travel agency you will ever need. We
                   specialize in contractual Visa's, Emergency Air Ambulance, Air
                   tickets and Passport Services.
                 </p>
