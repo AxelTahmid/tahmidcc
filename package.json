@@ -1,6 +1,7 @@
 {
   "name": "tahmidcc",
   "version": "0.1.0",
+  "homepage": "https://tahmid.org",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^3.1.0",
